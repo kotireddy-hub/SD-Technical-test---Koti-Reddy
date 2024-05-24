@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ui-container {
+  padding: 2em;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-wrapper {
+  margin: 1rem 0;
+}
+
+.ui-post {
+  border: 1px solid #1a1a1a;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.ui-post nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
